@@ -215,6 +215,7 @@
   /* Text of 2d section */
   .sect {
     color: #434455;
+    
   }
   /* /////////////////// Section 2 - 3 headers//////////////////////////////////////// */
   .section-flex{
@@ -224,10 +225,31 @@
     
   }
     .section2-flex{
+      
+    display: flex;       
+    gap: 24px;
+    justify-content: center;
+
+  } 
+  .section2-logo-font{
     display: flex;
+    margin-bottom: 8px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    justify-content: center;
     align-items: center;
-    
-    gap: 24px;}      
+  }
+ .section2-logo{
+  display: block;
+  
+  fill: #f11111;
+  width: 60px;
+  height: 64px;
+ }
+ 
+
   .h2-headers {
     font-weight: 700;
     font-size: 36px;
@@ -237,6 +259,7 @@
     text-transform: capitalize;
     color: var(--main-text-color);
   }  
+  
   .section2header-flex{
     margin-bottom: 8px;
   }
@@ -264,6 +287,22 @@
   .section4-flex{
     padding-top: 120px; 
   }
+  .team-social-items{
+    display: flex;    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;    
+
+  }
+  .team-social{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+  }
+
+  
   .section4-img-flex{
     display: flex;
     padding-top: 72px;
