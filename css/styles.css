@@ -292,7 +292,9 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #4D5AE5;    
+    background-color: #4D5AE5;  
+    justify-content: center;
+    align-items: center;  
 
   }
   .team-social{
@@ -301,14 +303,8 @@
     gap: 24px;
     margin-top: 8px;
   }
-  .team-social-icons{
-    
-  }
-  .team-social-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
+  
 
   
   .section4-img-flex{
