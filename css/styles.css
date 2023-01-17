@@ -302,6 +302,9 @@
     margin-top: 8px;
   }
   .team-social-icons{
+    
+  }
+  .team-social-links{
     display: flex;
     justify-content: center;
     align-items: center;
