@@ -240,8 +240,11 @@
     justify-content: center;
     align-items: center;
   }
-.section2-logo-icon{
+
   
+
+.ection2-logo-icon{
+
   fill: #31D0AA;
 }
 
@@ -353,9 +356,7 @@
 
 
 }
-.customs-icons{
-  color: var(--main-color);
-}
+
 .customs-icons{ 
   fill:var(--main-color);
 }
@@ -926,3 +927,4 @@
     color: #434455;
     margin-top: 8px;
   }
+
