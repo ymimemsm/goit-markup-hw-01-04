@@ -81,12 +81,19 @@
     
   }
   .header-flex-flex{
-    display: flex;
-    
-    justify-content: space-between;   
+    display: flex;       
+    justify-content: space-between;  
+
     
     
   }
+  .header-main{
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    max-width: 1440px;
+    margin:auto;
+  }
+
   .header-flex{
     display: flex;
     align-items: center;
@@ -129,13 +136,14 @@
     
   }
   .Nav:hover {
-    color: #434455;
+    color: #404BBF;
   }
   .Nav:focus {
-    color: var(--main-color);
+    color: #404BBF;
   }
     .Contacts:hover {
-    color: var(--main-color);
+    color: #404BBF;
+  
   }
   /* /////////////////////////Contacts //////////////////////////////////////////////// */
   .Contacts {
@@ -161,7 +169,7 @@
   .Section1 {
     background: var(--main-text-color);   
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg) ;
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
     max-width: 1440px;
     height: 600px;    
     background-repeat: no-repeat;    
@@ -180,7 +188,8 @@
     background: var(--main-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
-    border: 0;       
+    border: 0;    
+    
     }
     .Button-BG{
     display: flex;
@@ -272,7 +281,7 @@
   }
   /* Width calculation for future is some one like to delete the image other omages will not move  24 px * 2 (n of gaps between images )/number of images */
   .section3-img-calc{
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
   }  
   .h3-headers {
     text-align: center;
@@ -337,7 +346,7 @@
   } 
   /* Width calculation for future is some one like to delete the image other omages will not move  24 px * 3 (n of gaps between images )/number of images */
   .teambox{
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
   }
   /* ---------------------------------------Customs-----------------------------------------*/
 .customs-main{
@@ -351,10 +360,14 @@
   justify-content: center;
   gap: 24px;
 }
+.customs-items{
+width: calc((100% - 120px) / 6);
+height: 88px;
+}
 .customs-links{
   display: flex;
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   justify-content: center;
@@ -362,6 +375,7 @@
 
 
 }
+
 .customs-icons{
   
  fill:rgba(142, 143, 153, 1);
@@ -496,8 +510,8 @@
   .Decoration-cards:is(:hover,:focus){
     display: block;
     box-shadow: 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border: 0.5px solid #F4F4FD;
-    ;
+    
+    
   }
   
 
